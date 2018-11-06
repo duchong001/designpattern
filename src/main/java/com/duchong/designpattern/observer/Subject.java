@@ -11,7 +11,7 @@ public class Subject {
 		list.add(obs);
 	}
 	public void removeObserver(Observer obs){
-		list.add(obs);
+		list.remove(obs);
 	}
 
 	//通知所有的观察者更新状态

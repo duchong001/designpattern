@@ -1,8 +1,5 @@
 package com.duchong.designpattern.decorator;
 
-import java.io.FileInputStream;
-import java.io.InputStreamReader;
-
 public class Client {
 	public static void main(String[] args) {
 		Car car  = new Car();
