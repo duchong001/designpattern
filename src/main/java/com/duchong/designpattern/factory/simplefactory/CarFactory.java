@@ -2,12 +2,19 @@ package com.duchong.designpattern.factory.simplefactory;
 
 public class CarFactory {
 
+	public static final String AUTO="奥迪";
+
+	public static final String BYD="比亚迪";
+
 	public static  Car createCar(String type){
-		if("奥迪".equals(type)){
+		if(AUTO.equals(type)){
 			return new Audi();
-		}else if("比亚迪".equals(type)){
+		}
+		else if(BYD.equals(type)){
+
 			return new Byd();
-		}else{
+		}
+		else{
 			return null;
 		}
 	}

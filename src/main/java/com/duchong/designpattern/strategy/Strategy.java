@@ -1,5 +1,10 @@
 package com.duchong.designpattern.strategy;
 
+/**
+ * 策略接口
+ * @author DUCHONG
+ */
 public interface Strategy {
-	public double getPrice(double standardPrice);
+
+	 double getVipPrice(double originPrice);
 }

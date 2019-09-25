@@ -15,7 +15,9 @@ public class SingletonDemo4 {
 	private SingletonDemo4(){
 	}
 
-	//方法没有同步，调用效率高！
+	/**
+	 * 方法没有同步，调用效率高！
+	 */
 	public static SingletonDemo4  getInstance(){
 		return SingletonClassInstance.instance;
 	}
