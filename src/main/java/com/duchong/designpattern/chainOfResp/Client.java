@@ -1,7 +1,9 @@
 package com.duchong.designpattern.chainOfResp;
 
 public class Client {
+
 	public static void main(String[] args) {
+
 		Leader a = new Director("张三");
 		Leader b = new Manager("李四");
 		Leader b2 = new ViceGeneralManager("李小四");
